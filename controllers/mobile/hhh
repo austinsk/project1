@@ -1,0 +1,454 @@
+[16-May-2018 17:25:35 Africa/Lagos] PHP Notice:  Undefined index: sender_role in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 26
+[16-May-2018 17:25:35 Africa/Lagos] PHP Notice:  Undefined index: sender_role in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 26
+[16-May-2018 17:25:35 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender_type' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(79): Mobile->sendMessage('25', '42', 'individual', NULL, 'retty')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[16-May-2018 17:25:35 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender_type' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(79): Mobile->sendMessage('25', '42', 'company', NULL, 'retty')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[16-May-2018 17:34:12 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[16-May-2018 17:34:12 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[16-May-2018 17:50:37 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[16-May-2018 17:50:37 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[16-May-2018 18:03:29 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[16-May-2018 18:03:29 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[17-May-2018 11:13:34 Africa/Lagos] PHP Notice:  Undefined variable: last_message_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 140
+[17-May-2018 11:13:47 Africa/Lagos] PHP Notice:  Undefined variable: last_message_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 140
+[17-May-2018 11:14:22 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[17-May-2018 11:14:22 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL, '36')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[17-May-2018 11:18:35 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[17-May-2018 11:18:35 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL, '37')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[17-May-2018 11:21:49 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[17-May-2018 11:21:49 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:284
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(284): PDOStatement->execute()
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', NULL, '48')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 284
+[17-May-2018 11:27:46 Africa/Lagos] PHP Notice:  Undefined index: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 23
+[17-May-2018 11:27:46 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[17-May-2018 11:27:46 Africa/Lagos] PHP Notice:  Undefined index: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 23
+[17-May-2018 11:27:46 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND  ((sender_id = 25 AND recipient_id = 42) OR (sender_id = 42 AND recipient_id' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:294
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(294): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', 'asdff', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 294
+[17-May-2018 11:27:49 Africa/Lagos] PHP Notice:  Undefined index: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 23
+[17-May-2018 11:27:49 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND  ((sender_id = 25 AND recipient_id = 42) OR (sender_id = 42 AND recipient_id' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:294
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(294): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(77): Mobile->sendMessage('25', '42', 'asdff', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 294
+[17-May-2018 11:27:56 Africa/Lagos] PHP Notice:  Undefined index: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 23
+[17-May-2018 11:27:56 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 33
+[17-May-2018 11:30:49 Africa/Lagos] PHP Notice:  Undefined variable: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 81
+[17-May-2018 11:30:49 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND  ((sender_id = 25 AND recipient_id = 42) OR (sender_id = 42 AND recipient_id' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:294
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(294): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(81): Mobile->sendMessage('25', '42', 'aqwert', NULL)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 294
+[17-May-2018 11:30:55 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:30:55 Africa/Lagos] PHP Notice:  Undefined variable: last_message_id in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 81
+[17-May-2018 11:34:42 Africa/Lagos] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 328
+[17-May-2018 11:34:59 Africa/Lagos] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 328
+[17-May-2018 11:36:20 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:37:36 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:37:46 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:44:17 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:47:42 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 37
+[17-May-2018 11:52:15 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 11:53:55 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 11:55:22 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 11:56:25 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:02:57 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:05:09 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:06:41 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:09:27 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:09:52 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:12:05 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:12:05 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:300
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(300): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(48): Mobile->sendMessage('25', '42', 'FRTGV', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 300
+[17-May-2018 12:12:09 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:300
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(300): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(48): Mobile->sendMessage('25', '42', 'FRTGV', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 300
+[17-May-2018 12:12:14 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:12:19 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:300
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(300): PDO->query('SELECT m.* FROM...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\send_message.php(48): Mobile->sendMessage('25', '42', 'DC CCC DD', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 300
+[17-May-2018 12:13:20 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:16:36 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 12:19:48 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 13:04:47 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 13:05:00 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[17-May-2018 13:05:05 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[18-May-2018 09:59:20 Africa/Lagos] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1701
+[18-May-2018 10:14:06 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:14:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:14:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:14:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:14:49 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:15:03 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:15:08 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:15:28 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:28:01 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:28:01 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:28:01 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:28:01 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:37:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:37:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:37:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:37:07 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1668
+[18-May-2018 10:37:08 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1624
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1624): PDO->query('SELECT  u.id, A...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_details.php(26): Mobile->fetchDetails('[object Object]', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1624
+[18-May-2018 10:37:08 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1624
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1624): PDO->query('SELECT  u.id, A...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_details.php(26): Mobile->fetchDetails('[object Object]', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1624
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:43:25 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:46:56 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:18 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:18 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:19 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 10:48:26 Africa/Lagos] PHP Notice:  Undefined variable: infos in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1745
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: info in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: info in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: info in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 11:01:23 Africa/Lagos] PHP Notice:  Undefined variable: info in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1747
+[18-May-2018 12:07:19 Africa/Lagos] PHP Notice:  Undefined variable: rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1773
+[18-May-2018 12:07:19 Africa/Lagos] PHP Notice:  Undefined variable: info in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1773
+[21-May-2018 10:43:10 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[21-May-2018 10:45:33 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\handy\controllers\mobile\send_message.php on line 38
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 3 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 3 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 4 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 4 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 5 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Warning:  Missing argument 5 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:07:36 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 448
+[21-May-2018 11:07:36 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 448
+[21-May-2018 11:07:36 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 631
+[21-May-2018 11:07:36 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 631
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 3 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 3 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 4 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 4 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 5 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Warning:  Missing argument 5 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:40 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 448
+[21-May-2018 11:08:40 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 448
+[21-May-2018 11:08:40 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 631
+[21-May-2018 11:08:40 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 631
+[21-May-2018 11:08:55 Africa/Lagos] PHP Warning:  Missing argument 3 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:55 Africa/Lagos] PHP Warning:  Missing argument 4 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:55 Africa/Lagos] PHP Warning:  Missing argument 5 for Mobile::fetchIndividualDetails(), called in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 47 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 441
+[21-May-2018 11:08:55 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 448
+[21-May-2018 11:08:55 Africa/Lagos] PHP Notice:  Undefined variable: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 631
+[21-May-2018 11:50:41 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.company_id' in 'on clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1541): PDO->query('SELECT AVG(r.ra...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_company_services.php(24): Mobile->displayCompanyServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1541
+[21-May-2018 11:51:27 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.company_id' in 'on clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1541): PDO->query('SELECT AVG(r.ra...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_company_services.php(24): Mobile->displayCompanyServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1541
+[21-May-2018 11:52:46 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.company_id' in 'on clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1541): PDO->query('SELECT AVG(r.ra...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_company_services.php(24): Mobile->displayCompanyServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1541
+[21-May-2018 11:53:16 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.company_id' in 'on clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1541): PDO->query('SELECT AVG(r.ra...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_company_services.php(24): Mobile->displayCompanyServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1541
+[21-May-2018 11:53:29 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.company_id' in 'on clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1541): PDO->query('SELECT AVG(r.ra...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_company_services.php(24): Mobile->displayCompanyServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1541
+[21-May-2018 12:56:44 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS DECIMAL(10,2)) AS user_rating,
+			 ct.lng AS longitude,
+			  hs.id AS handy' at line 2' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1483
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1483): PDO->query('SELECT ct.lat A...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_services.php(24): Mobile->displayIndividualServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1483
+[21-May-2018 12:59:38 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'float)) as decimal(9,2)),
+			 ct.lng AS longitude,
+			  hs.id AS handy_id, 
+	' at line 2' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:1483
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(1483): PDO->query('SELECT ct.lat A...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_services.php(24): Mobile->displayIndividualServices('1')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1483
+[21-May-2018 13:28:49 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM users u LEFT JOIN reviews r ON (r.user_id = u.id) WHERE r.type = 'individua' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(466): PDO->query('SELECT  u.id, R...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(47): Mobile->fetchIndividualDetails('25', '7', '1', '10', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 466
+[21-May-2018 13:46:31 Africa/Lagos] PHP Notice:  Undefined index: user_rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 472
+[21-May-2018 13:48:37 Africa/Lagos] PHP Notice:  Undefined index: user_rating in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 472
+[21-May-2018 14:30:56 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r.recipient_id = u.id AND r.service_id = 1 AND r.active = 1 AND r.type = 'indivi' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:466
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(466): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(47): Mobile->fetchIndividualDetails('42', '7', '1', '10', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 466
+[21-May-2018 15:35:58 Africa/Lagos] PHP Notice:  Undefined variable: request in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 25
+[21-May-2018 15:36:20 Africa/Lagos] PHP Notice:  Undefined variable: request in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 25
+[21-May-2018 15:39:52 Africa/Lagos] PHP Notice:  Undefined variable: review in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 28
+[21-May-2018 15:46:23 Africa/Lagos] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 29
+[21-May-2018 15:48:21 Africa/Lagos] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 26
+[21-May-2018 15:49:09 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 28
+[21-May-2018 15:49:28 Africa/Lagos] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 32
+[21-May-2018 15:49:42 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 28
+[21-May-2018 15:52:45 Africa/Lagos] PHP Warning:  Missing argument 2 for Mobile::addReview(), called in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 34 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 10
+[21-May-2018 15:52:45 Africa/Lagos] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 15:52:45 Africa/Lagos] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 15:52:54 Africa/Lagos] PHP Warning:  Missing argument 2 for Mobile::addReview(), called in C:\xampp\htdocs\handy\controllers\mobile\add_review.php on line 34 and defined in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 10
+[21-May-2018 15:52:54 Africa/Lagos] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 15:52:54 Africa/Lagos] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 15:53:13 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 15:53:13 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:03:13 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:05:43 Africa/Lagos] PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 49
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:05:47 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:07:38 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:10:21 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:11:50 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:13:23 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:13:23 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:13:23 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:13:23 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:13:24 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:13:24 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:13:24 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:13:39 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:13:59 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:14:16 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:14:16 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:14:17 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:14:17 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:14:17 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:14:17 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:14:17 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: review in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 17
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: rate in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 18
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 19
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: subject in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 20
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 21
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 22
+[21-May-2018 16:44:44 Africa/Lagos] PHP Notice:  Undefined index: handyman_id in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 24
+[22-May-2018 10:44:45 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:475
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(475): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(47): Mobile->fetchIndividualDetails('25', '7', 'undefined', '10', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 475
+[22-May-2018 10:53:08 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:475
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(475): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(47): Mobile->fetchIndividualDetails('25', '7', 'undefined', '10', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 475
+[22-May-2018 14:42:55 Africa/Lagos] PHP Notice:  Undefined variable: database in C:\xampp\htdocs\handy\controllers\lib\pdo_connection.php on line 12
+[22-May-2018 14:42:56 Africa/Lagos] PHP Fatal error:  Call to a member function setAttribute() on a non-object in C:\xampp\htdocs\handy\controllers\lib\pdo_connection.php on line 12
+[23-May-2018 11:03:24 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:03:24 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:03:25 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:09:10 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:09:10 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:09:10 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:09:46 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:09:46 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:09:46 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:11:57 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:11:57 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:11:57 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:15:45 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:15:45 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:15:45 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:17:10 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:17:10 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:17:10 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:19:06 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:19:06 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:19:06 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:19:53 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:19:53 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:19:53 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:21:04 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:21:04 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:21:04 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:34:07 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:34:07 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:34:07 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:40:47 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:40:47 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:40:47 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 11:47:29 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 11:47:29 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 11:47:29 Africa/Lagos] PHP Notice:  Undefined index: type in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 29
+[23-May-2018 14:59:31 Africa/Lagos] PHP Notice:  Undefined index: service_id in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 25
+[23-May-2018 14:59:31 Africa/Lagos] PHP Notice:  Undefined index: review_count in C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php on line 27
+[23-May-2018 14:59:31 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND r.active = 1 AND r.type = 'individual' AND u.id = 25' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:475
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(475): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(47): Mobile->fetchIndividualDetails('25', '', NULL, NULL, 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 475
+[24-May-2018 10:07:10 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND r.active = 1 AND r.type = 'individual' AND u.id = 25' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:475
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(475): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(65): Mobile->fetchIndividualDetails('25', '', '', '', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 475
+[24-May-2018 10:07:24 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND r.active = 1 AND r.type = 'individual' AND u.id = 25' at line 1' in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php:475
+Stack trace:
+#0 C:\xampp\htdocs\handy\controllers\classes\mobile.class.php(475): PDO->query('SELECT r.review...')
+#1 C:\xampp\htdocs\handy\controllers\mobile\fetch_individual_details.php(65): Mobile->fetchIndividualDetails('25', '', '', '', 'individual')
+#2 {main}
+  thrown in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 475
+[25-May-2018 15:01:24 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 72
+[25-May-2018 15:01:24 Africa/Lagos] PHP Notice:  Undefined index: description in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1291
+[25-May-2018 15:08:06 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 74
+[25-May-2018 15:08:06 Africa/Lagos] PHP Notice:  Undefined index: description in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1291
+[25-May-2018 15:13:55 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 74
+[25-May-2018 15:13:55 Africa/Lagos] PHP Notice:  Undefined index: description in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1291
+[25-May-2018 15:14:03 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 74
+[25-May-2018 15:14:03 Africa/Lagos] PHP Notice:  Undefined index: description in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1291
+[25-May-2018 15:14:09 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 74
+[25-May-2018 15:14:56 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 75
+[25-May-2018 15:14:56 Africa/Lagos] PHP Notice:  Undefined index: description in C:\xampp\htdocs\handy\controllers\classes\mobile.class.php on line 1291
+[25-May-2018 15:16:26 Africa/Lagos] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\handy\controllers\mobile\edit_individual_details.php on line 74

@@ -1,0 +1,227 @@
+<footer id="listar-footer" class="listar-footer listar-haslayout">
+			<div class="listar-footeraboutarea">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="listar-upperbox">
+								<strong class="listar-logo logo"><a href="index.php"><img src="images/logo.png" alt="image description"></a></strong>
+								<ul class="listar-socialicons">
+									<li class="listar-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+									<li class="listar-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+									<li class="listar-linkedin"><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
+									<li class="listar-googleplus"><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+									<li class="listar-vimeo"><a href="javascript:void(0);"><i class="fa fa-vimeo"></i></a></li>
+								</ul>
+								<nav class="listar-navfooter">
+									<ul>
+										<li><a href="index.php">Home</a></li>
+										<!-- <li><a href="javascript:void(0);">how it work</a></li> -->
+										<!-- <li><a href="javascript:void(0);">Shop</a></li> -->
+										<!-- <li><a href="javascript:void(0);">Packages</a></li> -->
+										<!-- <li><a href="javascript:void(0);">News</a></li> -->
+										<!-- <li><a href="javascript:void(0);">Contact Us</a></li> -->
+									</ul>
+								</nav>
+							</div>
+							<div class="listar-lowerbox">
+								<div class="listar-description">
+									<p>Lorem ipsum dolor sit amet, eu per legimus referrentur. Ius ne viris repudiare, nominavi sententiae eos in. Et duo salutatus consequat Lorem ipsum dolor sit amet.</p>
+								</div>
+								<address><strong>Address:</strong> No.200 Josecph, San Francisco <span><strong>Tel:</strong> 01-987-654-3210</span></address>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="listar-footerbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<span class="listar-copyright">Copyright &copy; 2018 YokeUs. All rights reserved.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<!--************************************
+			Theme Modal Box Start
+	*************************************-->
+	<div class="modal fade listar-placequickview" tabindex="-1" role="dialog">
+		<div class="modal-dialog listar-modaldialog" role="document">
+			<div class="modal-content listar-modalcontent">
+				<div class="listar-themepost listar-placespost">
+					<span class="listar-btnclosequickview" data-toggle="modal" data-target=".listar-placequickview">X</span>
+					<figure class="listar-featuredimg" data-vide-bg="poster: images/post/img-16.jpg" data-vide-options="position: 50% 50%">
+						<span class="listar-contactnumber">
+							<i class="icon-"><img src="images/icons/icon-03.png" alt="image description"></i>
+							<em> + 7890 456 133</em>
+						</span>
+					</figure>
+					<div class="listar-postcontent">
+						<h3><a href="javascript:void(0);">Serena Hotel</a><i class="icon-checkmark listar-postverified listar-themetooltip" data-toggle="tooltip" data-placement="top" title="Verified"></i></h3>
+						<div class="listar-description">
+							<p>Ut euismod ultricies sollicitudin. Curabitur sed dapibus nulla. Nulla eget iaculis lectus. Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi varius, nulla sit Nam in mauris quis libero sodales eleifend amet rutrum elementum, est elit finibus tellus, ut tristique elit risus at metus</p>
+						</div>
+						<ul class="listar-listfeatures">
+							<li>Pets allowed</li>
+							<li>Kitchen</li>
+							<li>Internet</li>
+							<li>Suitable for events</li>
+							<li>Gym</li>
+							<li>Dryer</li>
+							<li>Hot tub</li>
+							<li>Family/kid friendly</li>
+							<li>Wireless Internet</li>
+						</ul>
+						<div class="listar-reviewcategory">
+							<div class="listar-review">
+								<span class="listar-stars"><span></span></span>
+								<em>(3 Review)</em>
+							</div>
+							<a href="javascript:void(0);" class="listar-category">
+								<i class="icon-tourism"></i>
+								<span>Hotel</span>
+							</a>
+						</div>
+						<div class="listar-themepostfoot">
+							<span class="listar-openinghours">
+								<i class="icon-alarmclock2"></i>
+								<em>Today <span class="listar-greenthemecolor">Open Now</span> 10:00 AM - 5:00 PM</em>
+							</span>
+							<div class="listar-postbtns">
+								<a class="listar-btnquickinfo listar-liked" href="javascript:void(0);"><i class="icon-heart2"></i></a>
+								<div class="listar-btnquickinfo">
+									<div class="listar-shareicons">
+										<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a>
+									</div>
+									<a class="listar-btnshare" href="javascript:void(0);">
+										<i class="icon-share3"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+			Theme Modal Box End
+	*************************************-->
+	<!--************************************
+			Login Singup Start
+	*************************************-->
+	<div id="listar-loginsingup" class="listar-loginsingup">
+		<button type="button" class="listar-btnclose">x</button>
+		<figure class="listar-loginsingupimg" data-vide-bg="poster: images/wall1.jpg" data-vide-options="position: 50% 50%"></figure>
+		<div class="listar-contentarea">
+			<div class="listar-themescrollbar">
+				<div class="listar-logincontent">
+					<div class="listar-themetabs">
+						<ul class="listar-tabnavloginregistered login" role="tablist">
+							<li role="presentation" class="active"><a href="#listar-loging" data-toggle="tab">Log in</a></li>
+							<li role="presentation"><a href="#listar-register" data-toggle="tab">Register</a></li>
+						</ul>
+						<div class="tab-content listar-tabcontentloginregistered">
+							<div role="tabpanel" class="tab-pane active fade in" id="listar-loging">
+								<form action="/yokeus/login.php" method="post" class="listar-formtheme listar-formlogin">
+									<fieldset>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-profile-male"></i>
+											<input type="text" name="username" class="form-control" placeholder="Username Or Email">
+										</div>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-icons208"></i>
+											<input type="password" name="password" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<div class="listar-checkbox">
+												<input type="checkbox" name="remember" id="rememberpass2">
+												<label for="rememberpass2">Remember me</label>
+											</div>
+											<span><a href="#">Lost your Password?</a></span>
+										</div>
+										<button type="submit" class="listar-btn listar-btngreen">Login</button>
+									</fieldset>
+								</form>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="listar-register">
+								<form action="/yokeus/register.php" method="post" class="listar-formtheme listar-formlogin">
+									<fieldset>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-profile-male"></i>
+											<input type="text" name="username" class="form-control" placeholder="Username">
+										</div>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-icons208"></i>
+											<input type="email" name="emailaddress" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-lock-stripes"></i>
+											<input type="password" name="password" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group listar-inputwithicon">
+											<i class="icon-lock-stripes"></i>
+											<input type="password" name="confirmpassword" class="form-control" placeholder="Password">
+										</div>
+										<button type="submit" class="listar-btn listar-btngreen">Register</button>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="listar-shareor"><span>or</span></div>
+					<div class="listar-signupwith">
+						<h2>Sign in With...</h2>
+						<ul class="listar-signinloginwithsocialaccount">
+							<li class="listar-facebook"><a href="javascript:void(0);"><i class="icon-facebook-1"></i><span>Facebook</span></a></li>
+							<li class="listar-twitter"><a href="javascript:void(0);"><i class="icon-twitter-1"></i><span>Twitter</span></a></li>
+							<li class="listar-googleplus"><a href="javascript:void(0);"><i class="icon-google4"></i><span>Google +</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+			Login Singup End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/mapclustering/data.json"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
+	<script src="js/tinymce/tinymce.min.js?apiKey=4cuu2crphif3fuls3yb1pe4qrun9pkq99vltezv2lv6sogci"></script>
+	<script src="js/mapclustering/markerclusterer.min.js"></script>
+	<script src="js/mapclustering/infobox.js"></script>
+	<script src="js/mapclustering/map.js"></script>
+	<script src="js/ResizeSensor.js.js"></script>
+	<script src="js/jquery.sticky-sidebar.js"></script>
+	<script src="js/YouTubePopUp.jquery.js"></script>
+	<script src="js/jquery.navhideshow.js"></script>
+	<script src="js/backgroundstretch.js"></script>
+	<script src="js/jquery.sticky-kit.js"></script>
+	<script src="js/bootstrap-slider.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.vide.min.js"></script>
+	<script src="JS/auto-complete.js"></script>
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/scrollbar.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/raphael-min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/sortable.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/gmap3.js"></script>
+	<script src="js/dev_themefunction.js"></script>
